@@ -1,0 +1,79 @@
+h1{
+	color: green;
+	border-bottom: solid 3px green;
+	font-family: Arial;
+	margin-bottom: 70px;
+}
+
+#description {
+	color: black;
+	height: 50px;
+	vertical-align: middle;
+	line-height: 50px;
+	background-image: url("images/ucla-vector.png");
+	background-color: white;
+	background-size: 100px;
+	background-position-x: 290px;
+	background-repeat: no-repeat;
+	font-family: Arial;
+}
+
+#lighted-arrow{
+	-webkit-transform: rotate(50deg);
+	height: 80px;
+	width: 100px;
+	background-color: white;
+	image-orientation: -90deg;
+	background-image: url("http://www.animatedimages.org/data/media/111/animated-arrow-image-0103.gif");
+	background-size: 50px;
+	background-repeat: no-repeat;
+	background-position-y: 45px; 
+	margin-left: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.english {
+	font-size: 17px;
+}
+
+.lyrics {
+	font-size: 18px;
+	font-family: Arial;
+	font-weight: bold;
+	border: 3px dotted yellow;
+	text-align: center;
+	margin: 0px 200px 0px 200px;
+	padding: 5px 15px 5px 15px;
+	width: 300px;
+
+}
+
+.align-vertical{
+	text-align: center;
+}
+
+img{
+	margin: 10px;
+}
+
+.align-vertical > ul{
+	display: inline-block;
+	color: black;
+}
+
+.align-vertical > h3{
+	display: inline-block;
+	color: black;
+}
+
+#clark-cool {
+	float: left;
+	border-radius: ;
+
+}
+
+#callen-fool {
+	float: right;
+}
