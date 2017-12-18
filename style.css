@@ -6,16 +6,16 @@ h1{
 }
 
 #description {
-	color: black;
-	height: 50px;
-	vertical-align: middle;
-	line-height: 50px;
-	background-image: url("images/ucla-vector.png");
-	background-color: white;
-	background-size: 100px;
-	background-position-x: 290px;
-	background-repeat: no-repeat;
-	font-family: Arial;
+	     color: black;
+	     height: 50px;
+	     vertical-align: middle;
+	     line-height: 50px;
+	     background-image: url("images/ucla-vector.png");
+	     background-color: white;
+	     background-size: 100px;
+	     background-position-x: 290px;
+	     background-repeat: no-repeat;
+	     font-family: Arial;
 }
 
 #lighted-arrow{
@@ -35,7 +35,7 @@ h1{
 }
 
 .english {
-	font-size: 17px;
+	 font-size: 17px;
 }
 
 .lyrics {
@@ -59,21 +59,21 @@ img{
 }
 
 .align-vertical > ul{
-	display: inline-block;
-	color: black;
+		display: inline-block;
+		color: black;
 }
 
 .align-vertical > h3{
-	display: inline-block;
-	color: black;
+		display: inline-block;
+		color: black;
 }
 
 #clark-cool {
-	float: left;
-	border-radius: ;
+	    float: left;
+	    border-radius: ;
 
 }
 
 #callen-fool {
-	float: right;
+	     float: right;
 }
