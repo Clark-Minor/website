@@ -5,36 +5,68 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div>
-			<h1>Clark Minor</h1>
-			<p id="description"> Sophomore Computer Science Major at</p>
-			<input type="text" placeholder="idiots type here">
-			<a href="http://www.speedofanimals.com">Click this link, you won't regret it
-			</a>
+		<!--header-->
+		<div id="header">
+			<h1 class="blue">Clark Minor</h1>
+			<div id="description"> <span class="english" >Sophomore computer science major at <span> </div>
 		</div>
-		<div>
-			<p class="english"> Clark Minor is <span style="color:blue">cool</span> </p>
-			<p class="english">Callen MacPhee is a <span style="color:red">fool</span></p>
-			<img id="clark-cool" src="images/clark-cool.JPG" height="250" width="" />
-			<img src="images/callen-fool.JPG" height="250">
-			<!--<img id="lighted-arrow" src="http://www.animatedimages.org/data/media/111/animated-arrow-image-0103.gif">-->
-			<p id="lighted-arrow"> This is Callen's favorite song</p>
+		<!-- END header -->
+		<input style="margin-bottom:30px" type="text" placeholder="idiots type here">
+		<!--Clark vs. Callen -->
+		<div id="clark-vs-callen-horizontal">
+			<div class="vertical-column">
+				<div id="clark-cool" > <p class="english">Clark Minor is <b style="color:blue">cool</b> </p>
+				</div>
+				<div class="fav-songs-title">
+					<img class="lighted-arrow-left" src="resources/images/animated-arrow-down.gif">
+					<h3 class="fav-songs-text"> Here are some of my favorite songs:</h3>
+					<img class="lighted-arrow-right" src="resources/images/animated-arrow-down.gif">
+			</div>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLKZmjz8HPQlTvAxYJ8V1Ig9WRDUqBfUZq" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+				<div>
+					<h3>Things I'm About</h3>
+					<ul class="english">
+						<li>Cashin' Checks</li>
+						<li>Snappin' Necks</li>
+						<li>Driving a Range Rover</li>
+					</ul>
+				</div>
+			</div>
+			<div class="vertical-column">
+				<div id="callen-fool" > <p class="english">Callen MacPhee is a <b style="color:red">fool</b> </p>
+				</div>
+				<div class="fav-songs-title">
+					<img class="lighted-arrow-left" src="resources/images/animated-arrow-down.gif">
+					<h3 class="fav-songs-text"> Here are some of Callen's favorite songs:</h3>
+					<img class="lighted-arrow-right" src="resources/images/animated-arrow-down.gif">
+			</div>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLKZmjz8HPQlRVfL3X5KKOksjh_71co3v9" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+				</div>
+					<div>
+						<h3>Things Callen's About</h3>
+						<ul class="english">
+							<li>Fucking with the Vision</li>
+							<li>Linking Up</li>
+							<li>Building</li>
+						</ul>
+					</div>
+			</div>
 		</div>
-		<div>
-			<p class="lyrics"> Say it ain't so <br>
-				Your drug is a heartbreaker<br>
-				Say it ain't so<br>
-				My love is a life taker<br>
-			</p>
-		</div>
-		<h3 align="center"><u>Things I'm about</u><h3>
-		<div class="align-vertical">
-				
-			<ul>
-				<li>Cashin' Checks</li>
-				<li>Snappin' Necks</li>
-				<li>Driving a Range Rover</li>
-			</ul>
+	  <!--END Clark vs. Callen -->
+
+		<div class="links-we-like">
+			<div id="title" >
+				<h2>These are some <br> links we like</h2>
+			</div>
+			<div id="links">
+				<a class="english" href="http://www.speedofanimals.com">Speed Of Animals
+				</a> <br>
+				<a class="english" href="https://geoguessr.com">GeoGuessr</a> <br>
+				<a class="english" href="http://trumpdonald.org">Trump Donald </a><br>
+			</div>
 		</div>
 	</body>
 </html>
