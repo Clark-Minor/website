@@ -29,7 +29,11 @@
 	border-bottom: solid 4px #ffd52e; /*golden yellow */
 	margin-bottom: 30px;
 	padding: 0 0 0 0;
-	background-color: #ccebff; /*light blue*/
+	background-color: #ccebff;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  background-size: cover;/*light blue*/
 	/*border: solid 4px #ccebff*/
 }
 /*The header flex box will include the header
