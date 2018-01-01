@@ -1,0 +1,14 @@
+/*.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #4d4d4d;
+}*/
+
+html, body {
+  background-color: #ffea80;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}

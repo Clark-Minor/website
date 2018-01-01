@@ -1,0 +1,99 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: repeat(12, minmax(60px ,1fr));
+    grid-template-rows: 80px auto 60px;
+    grid-template-areas:
+    "h h h h h h h h h h h h"
+    "m m c c c c c c c c c c"
+    "f f f f f f f f f f f f"
+}
+
+.header {
+    background-color: #9BCCF5;
+    grid-area: h;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #4d4d4d;
+}
+
+.text{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+  color: black;
+  font-weight: 600;
+}
+
+h4{
+  font-weight: 400;
+}
+
+.menu {
+  background-color: #C3FD57;
+  grid-area: m;
+  align-items: center;
+}
+ul{
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+li a{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: #4d4d4d;
+  padding: 0;
+  margin: -20;
+}
+ a.menu-item:hover{
+  background-color: #ffea80;
+}
+
+.content {
+    background-color: white;
+    grid-area: c;
+    padding: 70px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.clarks-portrait{
+  width: 300px;
+  height: auto;
+  border: solid #ffea80 5px;
+}
+
+
+
+footer {
+    background-color: #b9daf9;
+    grid-area: f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: black;
+}
+
+
+.icons{
+  display: block;
+  margin: 1em;
+  width: 29px;
+}
