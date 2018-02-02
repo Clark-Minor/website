@@ -97,3 +97,13 @@ footer {
   margin: 1em;
   width: 29px;
 }
+
+/*Projects Page */
+.personal-security{
+  grid-row: 2 / 5;
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
