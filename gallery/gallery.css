@@ -12,6 +12,8 @@
 
 .vertical {
     grid-row: span 2;
+    width: 100%;
+    height: 100%;
 }
 
 .big {
@@ -44,4 +46,78 @@ header {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 500;
   color: #bfbfbf;
+}
+
+/*.thumbnail {
+    width: 320px;
+    height: 240px;
+}*/
+
+.normal {
+    width: 100%;
+    height: 100%;
+}
+
+.normal img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.normal:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.vertical:hover img{
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+   transform:scale(1.25);
+}
+
+.vertical img{
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.horizontal:hover img{
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+   transform:scale(1.25);
+}
+
+.horizontal img{
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+
+.big:hover img{
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+   transform:scale(1.25);
+}
+
+.big img{
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
 }
