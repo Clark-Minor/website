@@ -59,11 +59,11 @@ header {
 }
 
 .normal img {
-    -webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -ms-transition: all 1s ease; /* IE 9 */
-    -o-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
 }
 
 .normal:hover img {
@@ -83,11 +83,11 @@ header {
 }
 
 .vertical img{
-  -webkit-transition: all 1s ease; /* Safari and Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* IE 9 */
-  -o-transition: all 1s ease; /* Opera */
-  transition: all 1s ease;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease;
 }
 
 .horizontal:hover img{
@@ -99,11 +99,11 @@ header {
 }
 
 .horizontal img{
-  -webkit-transition: all 1s ease; /* Safari and Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* IE 9 */
-  -o-transition: all 1s ease; /* Opera */
-  transition: all 1s ease;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease;
 }
 
 .big:hover img{
@@ -115,9 +115,9 @@ header {
 }
 
 .big img{
-  -webkit-transition: all 1s ease; /* Safari and Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* IE 9 */
-  -o-transition: all 1s ease; /* Opera */
-  transition: all 1s ease;
+  -webkit-transition: all .5s ease; /* Safari and Chrome */
+  -moz-transition: all .5s ease; /* Firefox */
+  -ms-transition: all .5s ease; /* IE 9 */
+  -o-transition: all .5s ease; /* Opera */
+  transition: all .5s ease;
 }
