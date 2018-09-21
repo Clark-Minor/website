@@ -3,11 +3,11 @@
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(3, minmax(60px ,1fr));
-    grid-template-rows: 80px 100px auto 60px;
+    grid-template-rows: 80px 120px auto 60px;
     grid-template-areas:
     "home header other"
     "description description description"
-    "skate comedy piano"
+    "skate piano comedy"
     "footer footer footer"
 }
 
@@ -42,6 +42,7 @@ header {
   background-color: #C3FD57;
   font-size: 15px;
   vertical-align: center;
+  padding-top: .5em;
 }
 
 
