@@ -26,24 +26,6 @@
 
 }
 
-.text{
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 500;
-}
-
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Titillium Web', sans-serif;
-}
-
-h1{
-  color: black;
-  font-weight: 600;
-}
-
-h4{
-  font-weight: 400;
-}
-
 .menu {
   background-color: #C3FD57;
   grid-area: m;
@@ -71,6 +53,7 @@ li a{
     background-color: white;
     grid-area: c;
     padding: 70px;
+    text-align: center;
 }
 
 .flex{

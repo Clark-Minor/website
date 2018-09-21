@@ -12,3 +12,21 @@ html, body {
   padding: 0px;
   margin: 0px;
 }
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+  color: black;
+  font-weight: 600;
+}
+
+h4{
+  font-weight: 400;
+}
+
+.text{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+}
