@@ -1,1 +1,1 @@
-http://clarkminor.party
+https://clarkminor.party
