@@ -96,3 +96,21 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
+.shark-attack{
+  grid-row: 6 / 10;
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stock-market-ml{
+  grid-row: 2 / 6;
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
