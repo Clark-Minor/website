@@ -1,0 +1,51 @@
+.layout {
+    height: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, minmax(60px ,1fr));
+    grid-template-rows: 80px 50px auto 60px;
+    grid-template-areas:
+    "home header other"
+    "projects1 projects2"
+    "footer footer footer"
+}
+
+header {
+    background-color: #9BCCF5;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 2em;
+    font-size: 1.5em;
+}
+
+.home-button {
+  background-color: #9BCCF5;
+  grid-area: home;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  size: 2em;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.other {
+  background-color: #9BCCF5;
+}
+
+
+.projects1 {
+    grid-area: projects1;
+    background-color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.projects1 {
+  grid-area: projects2;
+  background-color: white;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
