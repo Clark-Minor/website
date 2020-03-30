@@ -5,7 +5,7 @@
     grid-template-columns: repeat(3, minmax(60px ,1fr));
     grid-template-rows: 80px 50px auto 60px;
     grid-template-areas:
-    "home header other"
+    "home header header"
     "menu projects1 projects2"
     "footer footer footer"
 }
