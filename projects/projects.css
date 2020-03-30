@@ -23,19 +23,20 @@ header {
     font-size: 1.5em;
 }
 
-.other {
-  background-color: #9BCCF5;
+footer {
+    background-color: #b9daf9;
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: black;
 }
 
-.home-button {
+
+.other {
+  grid-area: other;
   background-color: #9BCCF5;
-  grid-area: home;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  size: 2em;
-  font-size: 1.5em;
-  text-decoration: none;
 }
 
 .menu {
@@ -67,6 +68,10 @@ header {
   align-items: center;
   flex-grow: 1;
   width: auto;
+}
+
+a.menu-item:hover{
+ background-color: #ffea80;
 }
 
 /*Projects Page */
