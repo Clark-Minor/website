@@ -2,51 +2,65 @@
     height: 100%;
     display: grid;
     grid-gap: 10px;
-    grid-template-rows: 120px auto 100px;
-    grid-template-columns: 200px auto auto;
+    grid-template-rows: 120px auto;
+    grid-template-columns: 200px auto;
     grid-template-areas:
-    "other header header"
-    "menu p1 p2"
-    "footer footer footer";
-
+    "other header"
+    "menu content"
+    "footer footer"
 }
 
 html, body {
   background-color: #ffea80;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p{
   font-family: 'Titillium Web', sans-serif;
 }
 
+h1{
+  color: black;
+  font-weight: 600;
+}
+
+h4{
+  font-weight: 400;
+}
+
+.text{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+}
 
 header {
     background-color: #9BCCF5;
-    size: 2em;
     grid-area: header;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #4d4d4d;
 }
 
-.other {
+.other{
   background-color: #9BCCF5;
   grid-area: other;
 }
 
-.closer {
-  margin-top: -20px;
-}
-
-.menu {
+ .menu {
   background-color: #C3FD57;
   grid-area: menu;
   align-items: center;
 }
+
 ul{
   list-style-type: none;
   width: 100%;
   padding: 0;
   margin: 0;
 }
+
 li a{
   text-decoration: none;
   text-align: center;
@@ -56,22 +70,19 @@ li a{
   margin: -20;
 }
 
-a.menu-item:hover{
- background-color: #ffea80;
+ a.menu-item:hover{
+  background-color: #ffea80;
 }
 
-.p1 {
-    grid-area: p1;
+.content {
     background-color: white;
+    grid-area: content;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    padding: 20px 20px 20px 20px;
-}
-
-.p2 {
-  grid-area: p2;
-  background-color: white;
-  text-align: center;
-  padding: 20px 20px 20px 20px;
 }
 
 footer {
@@ -80,9 +91,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1em;
     color: black;
 }
-
 
 .icons{
   display: block;
