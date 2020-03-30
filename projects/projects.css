@@ -31,10 +31,6 @@ header {
   text-decoration: none;
 }
 
-.other {
-  background-color: #9BCCF5;
-}
-
 .menu {
   background-color: #C3FD57;
   grid-area: menu;
