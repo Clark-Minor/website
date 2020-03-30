@@ -63,6 +63,8 @@ header {
   justify-content: space-around;
   align-items: center;
   flex-grow: 1;
+  height: 200px;
+  width: auto;
 }
 
 /*Projects Page */
