@@ -5,7 +5,10 @@
     grid-template-columns: repeat(3, minmax(60px ,1fr));
     grid-template-rows: 80px 50px auto 60px;
     grid-template-areas:
-    "home header header"
+    "other header other"
+    "menu projects1 projects2"
+    "menu projects1 projects2"
+    "menu projects1 projects2"
     "menu projects1 projects2"
     "footer footer footer"
 }
@@ -18,6 +21,10 @@ header {
     justify-content: center;
     size: 2em;
     font-size: 1.5em;
+}
+
+.other {
+  background-color: #9BCCF5;
 }
 
 .home-button {
