@@ -6,7 +6,7 @@
     grid-template-rows: 80px 50px auto 60px;
     grid-template-areas:
     "home header other"
-    "projects1 projects2"
+    "menu sidprojects1 projects2"
     "footer footer footer"
 }
 
@@ -35,6 +35,11 @@ header {
   background-color: #9BCCF5;
 }
 
+.menu {
+  background-color: #C3FD57;
+  grid-area: menu;
+  align-items: center;
+}
 
 .projects1 {
     grid-area: projects1;
